@@ -8,61 +8,98 @@
       body {
         padding-top: 40px;
         padding-bottom: 40px;
+        background-color:rgb(157, 99, 199);
+        justify-content: center;
+      }
+      * {
+          border: thin red solid;
+        }
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        align-items: center;
+        flex-grow: 1;
       }
       .banner-image {
         width: 210px;
         height: 250px;
         border-radius: 120px;
+        justify-content: center;
       }
-      .links-K {
-        width: 210px;
-        height: 100px;
+      .links {
+        background-color: #f9bc60;
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+      }
+      .social-icons {
+        display: flex;
+        justify-content: space-around;
+      }
+      .Thumbnails {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
         object-fit: cover;
+        justify-content: center;
       }
-      .links-UVST {
-        width: 210px;
-        height: 100px;
-        object-fit: cover;
+      .name {
+        color: #fffffe;
+        font-style: Monaco;
+        justify-content: center;
       }
-      .links-UTDM {
-        width: 210px;
-        height: 100px;
-        object-fit: cover;
+      .links a {
+        color: #001e1d;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 29;
       }
+
     </style>
   </head>
     <body>
-      <div class="banner">
-        <img src="Thumbnails/BRHeadshot-10.jpeg" alt="JG Headshot" class="banner-image">
-      </div>
+      <div class="items"> 
 
-      <div class="name">
-        Julian Girod
-      </div>
+        <div class="banner">
+          <img src="Thumbnails/BRHeadshot-10.jpeg" alt="JG Headshot" class="banner-image">
+        </div>
 
-      <div class="social-icons">
-        <a href="https://www.instagram.com/julian_girod/" target="_blank"> 
-          Instagram
-        </a>
+        <div class="name">
+          Julian Girod
+        </div>
 
-        <a href="https://github.com/juliang2127" target="_blank"> 
-          Github
-        </a>
-        
-        <a href="https://open.spotify.com/user/1273959095" target="_blank"> 
-          Spotify
-        </a>
-      </div>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/julian_girod/" target="_blank"> 
+            Instagram
+          </a>
 
-      <div class="links">
-        <img src="/Thumbnails/IMG_2581 (1).jpg" alt="Keinemusik - The Party is Over" class="links-K">
-        <a href="https://open.spotify.com/playlist/3U9lafWEnb3uP6JFbI65uq?si=adf10ea70175460e" target="_blank"></a>
+          <a href="https://github.com/juliang2127" target="_blank"> 
+            Github
+          </a>
+          
+          <a href="https://open.spotify.com/user/1273959095" target="_blank"> 
+            Spotify
+          </a>
+        </div>
 
-        <img src="/Thumbnails/IMG_1342.jpeg" alt="Bad Bunny - Un Verano Sin Ti" class="links-UVST">
-        <a href="https://open.spotify.com/album/3RQQmkQEvNCY4prGKE6oc5?si=v5n2R8MqQ8ejFuPUBFjXGQ" target="_blank"></a>
-        
-        <img src="/Thumbnails/IMG_0656 (2).jpg" alt="Bad Bunny - El Último Tour Del Mundo" class="links-UTDM">
-        <a href="https://open.spotify.com/album/2d9BCZeAAhiZWPpbX9aPCW?si=RaqzPSKwRaSBrBchqOtJtw" target="_blank"></a>
+        <div class="links">
+          <img src="/Thumbnails/IMG_2581 (1).jpg" alt="Keinemusik - The Party is Over" class="Thumbnails">
+          <a target="_blank" href="https://open.spotify.com/playlist/3U9lafWEnb3uP6JFbI65uq?si=adf10ea70175460e"> Keinemusik - The Party is Over </a>
+        </div>
+
+        <div class="links">
+          <img src="/Thumbnails/IMG_1342.jpeg" alt="Bad Bunny - Un Verano Sin Ti" class="Thumbnails">
+          <a target="_blank" href="https://open.spotify.com/album/3RQQmkQEvNCY4prGKE6oc5?si=v5n2R8MqQ8ejFuPUBFjXGQ"> Bad Bunny - Un Verano Sin Ti </a>
+        </div>
+
+        <div class="links">
+          <img src="/Thumbnails/IMG_0656 (2).jpg" alt="Bad Bunny - El Último Tour Del Mundo" class="Thumbnails">
+          <a target="_blank" href="https://open.spotify.com/album/2d9BCZeAAhiZWPpbX9aPCW?si=RaqzPSKwRaSBrBchqOtJtw"> Bad Bunny - El Último Tour Del Mundo </a>
+        </div>
+
+        </div>
       </div>
     </body>
 
